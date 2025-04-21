@@ -17,7 +17,7 @@
             background-color: black;
         }
 
-    
+
 
         .primary header ul {
             display: flex;
@@ -48,7 +48,7 @@
 
         ul {
             list-style: none;
-            margin: 0!important;
+            margin: 0 !important;
             padding: 0;
         }
 
@@ -86,10 +86,12 @@
             padding: 20px 12px;
             position: relative;
         }
-        #main-2 ul li{
+
+        #main-2 ul li {
             position: relative;
         }
-        #main-2 ul>li>a:after{
+
+        #main-2 ul>li>a:after {
             content: "";
             display: block;
             position: absolute;
@@ -101,27 +103,33 @@
 
         }
 
-        #main-2 ul li:hover a:after{
+        #main-2 ul li:hover a:after {
             width: 100%;
             transition: 1s;
         }
-        #main-2 .dropdown ul li{
+
+        #main-2 .dropdown ul li {
             display: block;
         }
-        #main-2 .dropdown a{
+
+        #main-2 .dropdown a {
             display: block;
             color: black;
         }
-        #main-2 .dropdown a::after{
+
+        #main-2 .dropdown a::after {
             display: none;
         }
-        #main-2 .dropdown{
+
+        #main-2 .dropdown {
             position: absolute;
             display: none;
         }
-        #main-2 ul li:hover .dropdown{
+
+        #main-2 ul li:hover .dropdown {
             display: block;
         }
+
         #main-2 {
             background-color: black;
         }
@@ -130,32 +138,40 @@
             padding: 12px;
             background-color: #2FDAB8;
         }
-        .cart a{
+
+        .cart a {
             background-color: #17C3A2;
             display: block;
             padding: 8px;
         }
-        #main-2 .dropdown{
+
+        #main-2 .dropdown {
             position: absolute;
         }
-        #carosel p{
-            color:yellow;
+
+        #carosel p {
+            color: yellow;
         }
-        #carosel h2{
-            color:white;
+
+        #carosel h2 {
+            color: white;
         }
-        #offers figcaption{
+
+        #offers figcaption {
             position: absolute;
             right: 3em;
             top: 3em;
         }
-        #offers{
+
+        #offers {
             margin-top: 60px;
         }
-        #offers figure{
+
+        #offers figure {
             position: relative;
         }
-        #offers figure:after{
+
+        #offers figure:after {
             display: block;
             content: "NEW ARRIVAL";
             width: 90%;
@@ -173,20 +189,24 @@
             transition: 0.5s;
 
         }
-        #offers .offer:hover figure:after{
+
+        #offers .offer:hover figure:after {
             opacity: 1;
             transform: translateX(0%);
             transition: 0.5s;
         }
-        #offers .offer:hover img{
+
+        #offers .offer:hover img {
             transform: translateX(0%);
             transition: 1s;
         }
-        #offers .offer{
+
+        #offers .offer {
             overflow: hidden;
 
         }
-        #offers img{
+
+        #offers img {
             display: block;
             width: 110%;
             transition: 1s;
@@ -194,113 +214,141 @@
             transform: translateX(-5%);
 
         }
+
         .carousel-inner #carosel span {
             color: #17C3A2;
-            font-weight:800;
-            font-size:4rem;    
+            font-weight: 800;
+            font-size: 4rem;
 
         }
-        .carousel-inner #carosel h2{
-            font-size:3.5rem;
-            font-weight:700;
+
+        .carousel-inner #carosel h2 {
+            font-size: 3.5rem;
+            font-weight: 700;
         }
-        .carousel-inner #carosel p{
-            font-size:3rem; 
+
+        .carousel-inner #carosel p {
+            font-size: 3rem;
         }
-        #carosel{
-            margin-bottom:15vh;
+
+        #carosel {
+            margin-bottom: 15vh;
         }
-            #carosel-2{
-                margin-bottom:15vh;
-            }
-            .carousel-inner #carosel-2 span {
-            color:#17C3A2;
-            font-weight:800;
-            font-size:4rem;    
+
+        #carosel-2 {
+            margin-bottom: 15vh;
+        }
+
+        .carousel-inner #carosel-2 span {
+            color: #17C3A2;
+            font-weight: 800;
+            font-size: 4rem;
 
         }
-        .carousel-inner #carosel-2 h2{
-            font-size:3.5rem;
-            font-weight:700;
+
+        .carousel-inner #carosel-2 h2 {
+            font-size: 3.5rem;
+            font-weight: 700;
         }
-        .carousel-inner #carosel-2 p{
-            font-size:3rem; 
+
+        .carousel-inner #carosel-2 p {
+            font-size: 3rem;
         }
-        #carosel-2 p{
-            color:yellow;
+
+        #carosel-2 p {
+            color: yellow;
         }
-        #carosel-2 h2{
-            color:white;
-        }   
-         #carosel-2{
-                margin-bottom:15vh;
-            }
-            .carousel-inner #carosel-3 span {
-            color:#17C3A2;
-            font-weight:800;
-            font-size:4rem;    
+
+        #carosel-2 h2 {
+            color: white;
+        }
+
+        #carosel-2 {
+            margin-bottom: 15vh;
+        }
+
+        .carousel-inner #carosel-3 span {
+            color: #17C3A2;
+            font-weight: 800;
+            font-size: 4rem;
 
         }
-        .carousel-inner #carosel-3 h2{
-            font-size:3.5rem;
-            font-weight:700;
+
+        .carousel-inner #carosel-3 h2 {
+            font-size: 3.5rem;
+            font-weight: 700;
         }
-        .carousel-inner #carosel-3 p{
-            font-size:3rem; 
+
+        .carousel-inner #carosel-3 p {
+            font-size: 3rem;
         }
-        #carosel-3 p{
-            color:yellow;
+
+        #carosel-3 p {
+            color: yellow;
         }
-        #carosel-3 h2{
-            color:white;
+
+        #carosel-3 h2 {
+            color: white;
         }
-        #carosel-3{
-            margin-bottom:15vh;
-        }  
-        #carosel-3 button{
-            padding:10px 8px;
-            background-color:#17C3A2;
-            border:1px solid #17C3A2;
-            color:white;
-        }      
-         #carosel button{
-            padding:10px 8px;
-            background-color:#17C3A2;
-            border:1px solid #17C3A2;
-            color:white;
+
+        #carosel-3 {
+            margin-bottom: 15vh;
         }
-         #carosel-2 button{
-            padding:10px 8px;
-            background-color:#17C3A2;
-            border:1px solid #17C3A2;
-            color:white;
-        }  
-        .mr-least{
-            padding:36px;
-            border-right:30px solid #17C3A2;
-            border-top:30px solid #17C3A2;
-            border-bottom:30px solid #17C3A2;
-        }  
-        #news .new ul li a {
-            text-decoration:none;
-            color:black;
-            font-size:1.5rem;
-            font-weight:700;
-        } 
-        .button{
-            padding:12px 10px;
+
+        #carosel-3 button {
+            padding: 10px 8px;
             background-color: #17C3A2;
-            border:1px solid #17C3A2;
+            border: 1px solid #17C3A2;
+            color: white;
+        }
+
+        #carosel button {
+            padding: 10px 8px;
+            background-color: #17C3A2;
+            border: 1px solid #17C3A2;
+            color: white;
+        }
+
+        #carosel-2 button {
+            padding: 10px 8px;
+            background-color: #17C3A2;
+            border: 1px solid #17C3A2;
+            color: white;
+        }
+
+        .mr-least {
+            padding: 36px;
+            border-right: 30px solid #17C3A2;
+            border-top: 30px solid #17C3A2;
+            border-bottom: 30px solid #17C3A2;
+        }
+
+        #news .new ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .shop .container .card{
+            margin-top:5vh;
+        }
+        footer .elite-shoppy span{
+            
+            display: inline-block;
+            padding:12px 8px;
+            background-color: #17C3A2;
+            color: white;
+        }
+        footer{
+            padding:20px;
+            margin-top:5vh;
+            background-color:black;
+        }
+        footer .elite-shoppy h1{
             color:white;
-            font-weight:bold;
-            margin-left:5vh;
         }
-        .title{
-            color:red;
-            text-align:center;
-        }
-        .text{
-            text-align:center;
+        footer .elite-shoppy p{
+            color:rgb(80, 77, 77);
         }
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -385,45 +433,53 @@
     <section id="carousel">
         <div id="carouselExampleDark" class="carousel carousel-dark slide">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/143933984/web/images/banner3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block" id="carosel">
-                  <h2>SUMMER <span>COLLECTION</span></h2>
-                  <p>New Arivals on Sale</p>
-                   <button>Shop Now</button>
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/143933984/web/images/banner3.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" id="carosel">
+                        <h2>SUMMER <span>COLLECTION</span></h2>
+                        <p>New Arivals on Sale</p>
+                        <button>Shop Now</button>
+                    </div>
                 </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/143933984/web/images/banner3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block" id="carosel-2">
-                    <h2>SUMMER <span>COLLECTION</span></h2>
-                    <p>New Arivals on Sale</p>
-                     <button>Shop Now</button>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/143933984/web/images/banner3.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" id="carosel-2">
+                        <h2>SUMMER <span>COLLECTION</span></h2>
+                        <p>New Arivals on Sale</p>
+                        <button>Shop Now</button>
+                    </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/143933984/web/images/banner3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block" id="carosel-3">
-                    <h2>SUMMER <span>COLLECTION</span></h2>
-                    <p>New Arivals on Sale</p>
-                    <button>Shop Now</button>
+                <div class="carousel-item">
+                    <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/143933984/web/images/banner3.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" id="carosel-3">
+                        <h2>SUMMER <span>COLLECTION</span></h2>
+                        <p>New Arivals on Sale</p>
+                        <button>Shop Now</button>
+                    </div>
                 </div>
-              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
     </section>
     <section id="offers">
         <div class="container">
@@ -431,12 +487,15 @@
                 <div class="col-md-6">
                     <div class="offer">
                         <figure>
-                        <img src="" alt="">
-                            <img  src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/143933984/web/images/bottom1.jpg" alt="">
+                            <img src="" alt="">
+                            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/143933984/web/images/bottom1.jpg"
+                                alt="">
                             <figcaption>
-                              <font color="white"><b><span><font color="red">F
-                              </font></span>ALL AHEAD
-                             </b> </font>
+                                <font color="white"><b><span>
+                                            <font color="red">F
+                                            </font>
+                                        </span>ALL AHEAD
+                                    </b> </font>
                             </figcaption>
                         </figure>
                     </div>
@@ -444,12 +503,15 @@
                 <div class="col-md-6">
                     <div class="offer">
                         <figure>
-                        <img src="" alt="">
-                            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/143933984/web/images/bottom2.jpg" alt="">
+                            <img src="" alt="">
+                            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/143933984/web/images/bottom2.jpg"
+                                alt="">
                             <figcaption>
-                               <font color="white"><b><span><font color="red">F
-                              </font></span>ALL AHEAD
-                             </b> </font>
+                                <font color="white"><b><span>
+                                            <font color="red">F
+                                            </font>
+                                        </span>ALL AHEAD
+                                    </b> </font>
                             </figcaption>
                         </figure>
                     </div>
@@ -463,17 +525,19 @@
                 <div class="col-md-5">
                     <div class="img">
                         <figure>
-                            
-                            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/143933984/web/images/bottom2.jpg" >
+
+                            <img
+                                src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/143933984/web/images/bottom2.jpg">
                         </figure>
                     </div>
                 </div>
                 <div class="col-md-5">
                     <div class="mr-least">
-                            <h5>SAVE UP TO 50% IN THIS WEEK</h5>
-                            <p>Suspendisse varius turpis efficitur erat laoreet dapibus. Mauris sollicitudin scelerisque commodo.Nunc dapibus mauris sed metus finibus posuere.</p>
-                    
-                        </div>
+                        <h5>SAVE UP TO 50% IN THIS WEEK</h5>
+                        <p>Suspendisse varius turpis efficitur erat laoreet dapibus. Mauris sollicitudin scelerisque
+                            commodo.Nunc dapibus mauris sed metus finibus posuere.</p>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -484,7 +548,9 @@
             <div class="row">
                 <div col>
                     <div class="new">
-                        <h1><center>NEW ARRIVALS</center></h1>
+                        <h1>
+                            <center>NEW ARRIVALS</center>
+                        </h1>
                         <ul class="d-flex justify-content-evenly">
                             <li><a href="#">Men</a></li>
                             <li><a href="#">Women</a></li>
@@ -498,78 +564,255 @@
         <br>
     </section>
     <section class="shop">
-        <div class="card-group">
-            <div class="card">
-              <img src="http://127.0.0.1:5500/chand%20elite%20wabsite_files/m2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="title">FORMAL BLUE SHIRT</h5>
-                <p class="text">$45.99</p>
-                <button class="button">ADD TO CARD</button>
-            </div>
-            </div>
-            <div class="card">
-              <img src="http://127.0.0.1:5500/chand%20elite%20wabsite_files/m4.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="title">FORMAL BLUE SHIRT</h5>
-                <p class="text">$45.99</p>
-                <button class="button">ADD TO CARD</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="http://127.0.0.1:5500/chand%20elite%20wabsite_files/m1.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="title">FORMAL BLUE SHIRT</h5>
-                <p class="text">$45.99</p>
-                <button class="button">ADD TO CARD</button>
-              </div>
-            </div>
-            <div class="card">
-<img src="https://nurimetin.github.io/eliteshoppy.github.io/images/m3.jpg" alt="">                <div class="card-body">
-                  <h5 class="title">FORMAL BLUE SHIRT</h5>
-                  <p class="text">$45.99</p>
-                  <button class="button">ADD TO CARD</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
                 </div>
-          </div>
-    </section>
-    <section class="shop-2">
-        <div class="card-group">
-            <div class="card">
-              <img src="http://127.0.0.1:5500/chand%20elite%20wabsite_files/m6.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="title">FORMAL BLUE SHIRT</h5>
-                <p class="text">$45.99</p>
-                <button class="button">ADD TO CARD</button>
-            </div>
-            </div>
-            <div class="card">
-              <img src="http://127.0.0.1:5500/chand%20elite%20wabsite_files/m8.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="title">FORMAL BLUE SHIRT</h5>
-                <p class="text">$45.99</p>
-                <button class="button">ADD TO CARD</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="http://127.0.0.1:5500/chand%20elite%20wabsite_files/m5.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="title">FORMAL BLUE SHIRT</h5>
-                  <p class="text">$45.99</p>
-                  <button class="button">ADD TO CARD</button>
-            </div>
-            </div>
-            <div class="card">
-                <img src="http://127.0.0.1:5500/chand%20elite%20wabsite_files/m7.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="title">FORMAL BLUE SHIRT</h5>
-                    <p class="text">$45.99</p>
-                    <button class="button">ADD TO CARD</button>
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
                 </div>
-              </div>
-          </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://nurimetin.github.io/eliteshoppy.github.io/images/m1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FORMAL BLUE SHIRT</h5>
+                            <P>$45.99 <span><font color="grey"><strike>$69.71</strike></font></span></P>
+                          <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="elite-shoppy">
+                        <h1><span>E</span>lite Shoppy</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur doloribus neque recusandae molestias perspiciatis! Omnis, vi</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info">
+                        <h1>OUR INFORMATION</h1>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </footer>
     <script src="https://kit.fontawesome.com/cd00034d8b.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
