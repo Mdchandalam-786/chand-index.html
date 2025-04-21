@@ -1,0 +1,52 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            background-color: bisque;
+            height: 100px;
+            width: 100px;
+            font-size: 50px;
+            z-index: 1000000;
+        }
+        .b{
+            background-color: crimson;
+            height: 100px;
+            width: 100px;
+            font-size: 50px;
+            transform-origin: top;
+            transform: rotateX(90deg);
+        }
+        .a,.b{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+        }
+        .box
+        {
+            position: relative;
+            transition: 0.5s;
+            transform-style: preserve-3d;
+        }
+
+        .box:hover {
+            transform: rotateX(-90deg);
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="a"><i class="fab fa-instagram"></i></div>
+        <div class="b"><i class="fab fa-facebook-f"></i></div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/cd00034d8b.js"></script>
+</body>
+</html>
