@@ -785,28 +785,32 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col col-md-3">
                     <div class="elite-shoppy">
                         <h1><span>E</span>lite Shoppy</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur doloribus neque recusandae molestias perspiciatis! Omnis, vi</p>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col col-md-3">
                     <div class="info">
-                        <h1>OUR INFORMATION</h1>
+                        <font color="white"><h1><b><span style="font-weight:800;">OUR</span></b> INFORMATION</h1></font>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="#" style="text-decoration:none; color:grey;">Home</a></li>
+                            <li><a href="#" style="text-decoration:none; color:grey;">Men's Wear</a></li>
+                            <li><a href="#" style="text-decoration:none; color:grey;">Women's wear</a></li>
+                            <li><a href="#" style="text-decoration:none; color:grey;">About </a></li>
+                            <li><a href="#" style="text-decoration:none; color:grey;">Short Codes</a></li>
+                            <li><a href="#" style="text-decoration:none; color:grey;">Contact</a></li>
                         
                         </ul>
                     </div>
                 </div>
             </div>
-        
+            <div class="col col-md-3">
+                <div class="store">
+                    <font color="white"><h1><b><span style="font-weight:800;">STORE</span></b> INFORMATION</h1></font>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/cd00034d8b.js"></script>
